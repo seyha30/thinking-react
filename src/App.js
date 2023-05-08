@@ -2,7 +2,7 @@
  * @Author                : seyha30<sinseyha1x@gmail.com>                     *
  * @CreatedDate           : 2023-05-08 14:45:40                               *
  * @LastEditors           : seyha30<sinseyha1x@gmail.com>                     *
- * @LastEditDate          : 2023-05-08 14:51:18                               *
+ * @LastEditDate          : 2023-05-08 14:54:42                               *
  * @FilePath              : thinking-react/src/App.js                         *
  * @CopyRight             : SAMBAT FINANCE                                    *
  *****************************************************************************/
@@ -23,6 +23,9 @@ function App() {
   return (
     <div>
       <h1>Main App</h1>
+      {products.map((product) => {
+        return <h1>{product.category}</h1>;
+      })}
     </div>
   );
 }
