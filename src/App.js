@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+/******************************************************************************
+ * @Author                : seyha30<sinseyha1x@gmail.com>                     *
+ * @CreatedDate           : 2023-05-08 14:45:40                               *
+ * @LastEditors           : seyha30<sinseyha1x@gmail.com>                     *
+ * @LastEditDate          : 2023-05-08 14:45:40                               *
+ * @FilePath              : thinking-react/src/App.js                         *
+ * @CopyRight             : SAMBAT FINANCE                                    *
+ *****************************************************************************/
+
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>Main App</h1>
     </div>
   );
 }
